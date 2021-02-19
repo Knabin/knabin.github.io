@@ -67,9 +67,9 @@
 
     color: var(--link-color);
     &:hover {
-      background: #2a408e;
+      background: #F4838A;
       color: #fff;
-      border-color: #2a408e;
+      border-color: #F4838A;
     }
     &.disabled {
       @include btn-post-nav;
@@ -147,6 +147,18 @@
   line-height: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+#toc li > a:hover {
+  color:#F4838A;
+border-left: 1px solid #F4838A;
+}
+#toc li > a:focus {
+  color:#F4838A;
+    border-left: 1px solid #F4838A;
+}
+#toc li > a.active {
+  color:#EF515F;
+    border-left: 2px solid #F4838A;
 }
 
 /* --- Related Posts --- */

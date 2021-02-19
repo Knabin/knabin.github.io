@@ -9,29 +9,29 @@ url: 'https://knabin.github.io'
 baseurl: ''
 
 # the HTML language tag › https://www.w3.org/International/questions/qa-choosing-language-tags
-lang: en-US
+lang: ko-KR
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Chirpy                          # the main title
+title: cloud nine                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Test   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Test
+  Test
+  Testing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://Knabin.github.io'
 
-author: your_full_name                  # change to your full name
+author: Nabin_Kim                  # change to your full name
 
 github:
-  username: github_username             # change to your github username
+  username: Knabin             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
@@ -72,7 +72,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode:   [light]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -82,7 +82,7 @@ theme_mode:   # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
+avatar: https://avatars.githubusercontent.com/u/50770572?s=460&u=80ec16cb6239421d26fc06b078573bcf03187321&v=4
 
 # boolean type, the global switch for ToC in posts.
 toc: true
