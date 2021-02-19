@@ -8,6 +8,8 @@ vendor
 
 # rubygem
 *.gem
+# yard docs
+doc
 
 # npm dependencies
 node_modules
