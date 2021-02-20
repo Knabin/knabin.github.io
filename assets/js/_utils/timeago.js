@@ -16,17 +16,17 @@ $(function() {
 
     if (past.getFullYear() !== now.getFullYear()) {
       toRefresh -= 1;
-      return past.toLocaleString("en-US", {
+      return past.toLocaleString("ko-KR", {
         year: "numeric",
-        month: "short",
+        month: "numeric",
         day: "numeric"
       });
     }
 
     if (past.getMonth() !== now.getMonth()) {
       toRefresh -= 1;
-      return past.toLocaleString("en-US", {
-        month: "short",
+      return past.toLocaleString("ko-KR", {
+        month: "numeric",
         day: "numeric"
       });
     }
@@ -36,20 +36,20 @@ $(function() {
     let day = Math.floor(seconds / 86400);
     if (day >= 1) {
       toRefresh -= 1;
-      return day + " day" + (day > 1 ? "s" : "") + " ago";
+      return day + "일" + " 전";
     }
 
     let hour = Math.floor(seconds / 3600);
     if (hour >= 1) {
-      return hour + " hour" + (hour > 1 ? "s" : "") + " ago";
+      return hour + "시간" + " 전";
     }
 
     let minute = Math.floor(seconds / 60);
     if (minute >= 1) {
-      return minute + " minute" + (minute > 1 ? "s" : "") + " ago";
+      return minute + "분" + " 전";
     }
 
-    return (isLastmod ? "just" : "Just") + " now";
+    return (isLastmod ? "방금" : "방금") + " 전";
   }
 
   function updateTimeago() {

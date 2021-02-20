@@ -1,7 +1,8 @@
 #  The date format
 
-tooltip: "%a, %b %e, %Y, %l:%M %p %z"
+#tooltip: "%a, %b %e, %Y, %l:%M %p %z"
+tooltip: "%Y년 %m월 %d일, %H시 %M분"
 
 post:
-  long: "%b %e, %Y"
-  short: "%b %e"
+  long: "%Y년 %m월 %d일"
+  short: "%m월 %d일"

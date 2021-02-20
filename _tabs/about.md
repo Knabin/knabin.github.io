@@ -1,7 +1,7 @@
 ---
-title: About
-icon: fas fa-info
-order: 4
+title: 프로필
+icon: fas fa-user
+order: 1
 ---
 
 
