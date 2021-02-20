@@ -1,6 +1,7 @@
 /*
   Style for Homepage
 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
 
 .pagination {
   font-size: 1rem;
@@ -23,7 +24,7 @@
       align-items: center;
       border-radius: 50%;
       border: 1px solid var(--btn-paginator-border-color);
-      font-family: 'Lato', sans-serif;
+      font-family: 'Noto Sans KR', sans-serif;
       background-color: var(--button-bg);
       &:hover {
         background-color: var(--btn-paginator-hover-color);

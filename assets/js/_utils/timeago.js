@@ -13,7 +13,7 @@ $(function() {
   function timeago(iso, isLastmod) {
     let now = new Date();
     let past = new Date(iso);
-
+console("timeago function");
     if (past.getFullYear() !== now.getFullYear()) {
       toRefresh -= 1;
       return past.toLocaleString("ko-KR", {
