@@ -18,12 +18,10 @@ timezone: Asia/Seoul
 # --------------------------
 title: cloud nine                          # the main title
 
-tagline: Testing                     # it will display as the sub-title
+tagline: development blog            # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Test
-  Test
-  Testing.
+  Development Blog
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://Knabin.github.io'
