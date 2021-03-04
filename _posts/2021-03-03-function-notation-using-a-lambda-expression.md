@@ -127,7 +127,9 @@ for_each(
 ---
 
 ## 초기화 캡처
+
 - 초기화 캡처(Initialization Capture): 변수의 값을 캡처해서 람다 표현식의 변수에 할당할 수 있다. C++14에 추가됐다.
+
 ```cpp
 int a = 5;
 
@@ -145,7 +147,9 @@ cout << a << endl;
 ---
 
 ## 제너릭 람다 표현식
+
 -   C++14부터 매개변수 목록에도 auto 사용이 가능하다.
+
 ```cpp
 auto findMax = [](auto &x, auto &y)
 {
